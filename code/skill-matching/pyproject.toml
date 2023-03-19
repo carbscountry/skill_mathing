@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "skill-matching"
+version = "1.2.2"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "skill-matching"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+jupyterlab = "^3.6.1"
+pandas = "^1.5.3"
+tqdm = "^4.64.1"
+nltk = "^3.8.1"
+janome = "^0.4.2"
+gensim = "^4.3.0"
+spacy = "^3.5.0"
+skillner = "^1.0.3"
+kaggle = "^1.5.13"
+openpyxl = "^3.1.1"
+nbdime = "^3.1.1"
+pot = "^0.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
